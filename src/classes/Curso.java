@@ -12,8 +12,8 @@ public class Curso {
 
     @Override
     public String toString() {
-        return "codigo: " + codigo +"\n"
-                + "nome: " + nome ;
+        return  nome +"\n"+
+                "CODIGO: " + codigo +"\n";
     }
 
     public double getCodigo() {
@@ -31,4 +31,5 @@ public class Curso {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
 }

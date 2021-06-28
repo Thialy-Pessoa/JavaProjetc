@@ -1,7 +1,7 @@
 package classes;
 
-public class Aluno {
-
+public class Aluno 
+{
     private String nome;
     private String cpf;
     private int idade;
@@ -14,13 +14,13 @@ public class Aluno {
         this.curso = curso;
     }
 
-    
+    @Override
     public String toString() {
-        return "Aluno: " +
-                "nome: " + nome + '\'' +
-                "cpf: " + cpf + '\'' +
-                "idade: " + idade +
-                '\'' + "curso: " + curso ;
+        return "NOME: " + nome + "\n" +
+                "CPF: " + cpf + "\n" +
+                "IDADE: " + idade + "\n" +
+                "CURSO: " + curso + "\n";
+
     }
 
     public String getNome() {
